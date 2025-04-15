@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 260 25% 98%;
+    --foreground: 260 10% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 260 10% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 260 10% 15%;
+
+    --primary: 265 89% 42%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 174 84% 32%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 260 10% 92%;
+    --muted-foreground: 260 10% 50%;
+
+    --accent: 265 50% 60%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 260 10% 90%;
+    --input: 260 10% 90%;
+    --ring: 265 89% 42%;
+
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-portfolio-800 relative;
+  }
+
+  .section-heading::after {
+    content: '';
+    @apply absolute left-0 -bottom-2 w-20 h-1 bg-teal-500 rounded-full;
+  }
+
+  .glass-card {
+    @apply backdrop-blur-md bg-white/70 border border-white/20 shadow-lg;
+  }
+
+  .nav-item {
+    @apply relative px-4 py-2 text-portfolio-800 hover:text-portfolio-600 transition-colors font-medium;
+  }
+
+  .nav-item::after {
+    content: '';
+    @apply absolute left-0 bottom-0 w-0 h-0.5 bg-teal-500 transition-all duration-300;
+  }
+
+  .nav-item:hover::after {
+    @apply w-full;
+  }
+
+  .nav-item.active {
+    @apply text-portfolio-700;
+  }
+
+  .nav-item.active::after {
+    @apply w-full;
+  }
+
+  .service-card {
+    @apply p-6 rounded-xl glass-card hover:shadow-xl transition-all duration-300 hover:-translate-y-1;
+  }
+
+  .project-card {
+    @apply overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300;
+  }
+
+  .project-card img {
+    @apply w-full h-48 object-cover transition-transform duration-500;
+  }
+
+  .project-card:hover img {
+    @apply scale-105;
+  }
+
+  .skill-bar {
+    @apply h-2 bg-muted rounded-full overflow-hidden;
+  }
+
+  .skill-progress {
+    @apply h-full rounded-full bg-gradient-to-r from-teal-500 to-portfolio-600;
+  }
+
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-1;
+  }
+
+  .cta-button {
+    @apply bg-portfolio-700 hover:bg-portfolio-800 text-white px-8 py-3 rounded-full 
+           transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 
+           font-medium flex items-center justify-center gap-2;
+  }
+
+  .secondary-button {
+    @apply bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-full 
+           transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 
+           font-medium flex items-center justify-center gap-2;
+  }
+}
+
+.animate-delay-100 {
+  animation-delay: 100ms;
+}
+
+.animate-delay-150 {
+  animation-delay: 150ms;
+}
+
+.animate-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animate-delay-250 {
+  animation-delay: 250ms;
+}
+
+.animate-delay-300 {
+  animation-delay: 300ms;
+}
+
+.animate-delay-350 {
+  animation-delay: 350ms;
+}
+
+.animate-delay-400 {
+  animation-delay: 400ms;
+}
+
+.animate-delay-450 {
+  animation-delay: 450ms;
+}
+
+.animate-delay-500 {
+  animation-delay: 500ms;
+}
+
+.animate-delay-700 {
+  animation-delay: 700ms;
+}
+
+.animate-delay-1000 {
+  animation-delay: 1000ms;
+}
