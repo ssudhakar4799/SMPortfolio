@@ -80,7 +80,6 @@ const ResumeSection = () => {
             <ContactInfoSection isVisible={isVisible} />
             <AboutMeSection isVisible={isVisible} />
             <LanguagesSection isVisible={isVisible} />
-            <LanguagesSection isVisible={isVisible} />
 
           </div>
           
