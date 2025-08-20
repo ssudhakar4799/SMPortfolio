@@ -10,7 +10,7 @@ interface ContactInfoSectionProps {
 
 const ContactInfoSection = ({ isVisible }: ContactInfoSectionProps) => {
   const contactInfo = [
-    { icon: Mail, title: "E-mail", content: "suudhakar4799@gmail.com", delay: "100" },
+    { icon: Mail, title: "E-mail", content: "ssudhakar4799@gmail.com", delay: "100" },
     { icon: Phone, title: "Phone", content: "+91-8220347695", delay: "200" },
     { icon: MapPin, title: "Address", content: "No. 2/108, V.Poosaripatty, Trichy-621307", delay: "300" },
   ];
