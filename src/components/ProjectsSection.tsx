@@ -18,13 +18,13 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Invoice",
-    description: "A full-featured invoice management application built using Refine Dev for the frontend, Supabase for the backend, and Ant Design for the UI. It includes product management, invoice generation, and PDF download functionality",
-    image: "/lovable-uploads/invoice.png",
-    tags: ["Refine dev", "Ant D", "Supabase", "PostgreSQL"],
-    liveUrl: "https://invoice-ten-wine.vercel.app/",
-    githubUrl: "https://github.com/ssudhakar4799/Invoice",
-    previewUrl: "https://invoice-ten-wine.vercel.app/"
+    title: "DataQube",
+    description: "Built a full-stack permit declaration system for the SG government using React.js with Refine Dev, Redux, and React Router DOM on the frontend. The backend is developed with Encore Dev, using JWT authentication, Nodemailer with SMTP for emails, and PostgreSQL for data storage. Integrated AWS services like API Gateway, Lambda, SQS, and S3 for a scalable and secure infrastructure.",
+    image: "/lovable-uploads/dataqube.png",
+    tags: ["Refine dev", "Redux", "Encore dev", "JWT Token", "PostgreSQL", "AWS", "Nodemailer"],
+    liveUrl: "https://testapp.dataqube.opalminds.com/login",
+    githubUrl: "",
+    previewUrl: "https://testapp.dataqube.opalminds.com/login"
   },
   {
     id: 2,
@@ -38,6 +38,26 @@ const projects: Project[] = [
   },
   {
     id: 3,
+    title: "Subhameera Herbals",
+    description: "I completed a full-stack project using React.js for the frontend, incorporating React Sidebar Pro, Material-UI, Redux, and React Router DOM. The backend is developed with PHP, implementing JWT token authentication, handling email functionality using PHPMailer, and interacting with a SQL database to ensure seamless communication between the frontend and backend.",
+    image: "/lovable-uploads/subhameera.png",
+    tags: ["React", "Redux", "PHP", "JWT Token", "sql"],
+    liveUrl: "https://subhameeraherbals.com/",
+    githubUrl: "",
+    previewUrl: "https://subhameeraherbals.com/"
+  },
+  {
+    id: 4,
+    title: "Invoice",
+    description: "A full-featured invoice management application built using Refine Dev for the frontend, Supabase for the backend, and Ant Design for the UI. It includes product management, invoice generation, and PDF download functionality",
+    image: "/lovable-uploads/invoice.png",
+    tags: ["Refine dev", "Ant D", "Supabase", "PostgreSQL"],
+    liveUrl: "https://invoice-ten-wine.vercel.app/",
+    githubUrl: "https://github.com/ssudhakar4799/Invoice",
+    previewUrl: "https://invoice-ten-wine.vercel.app/"
+  },
+  {
+    id: 5,
     title: "Employees Workplace",
     description: "I completed a project as a backend developer in PHP focuses on implementing authentication using JWT, developing APIs for features like timesheet management, attendance tracking, and generating course certificates.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80",
@@ -47,7 +67,7 @@ const projects: Project[] = [
     previewUrl: "https://workplace.fabevy.com/auth/login"
   },
   {
-    id: 4,
+    id: 6,
     title: "Workbench",
     description: "I completed full stack project involves React.js for the frontend with React Sidebar Pro, Material-UI, Redux, and React Router DOM. The backend utilizes Node.js with Hapi.js server, implementing JWT token authentication, email sending, and ensuring smooth communication between frontend and backend.",
     image: "/lovable-uploads/workplace.png",
