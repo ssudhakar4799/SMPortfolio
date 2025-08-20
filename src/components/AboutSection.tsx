@@ -77,7 +77,7 @@ const AboutSection = () => {
                   <div className="mt-6 space-y-2">
                     <div className="flex items-center">
                       <Award className="text-portfolio-600 dark:text-portfolio-400 mr-2 flex-shrink-0" size={18} />
-                      <p className="text-gray-600 dark:text-gray-300">1.5 + Years Experience</p>
+                      <p className="text-gray-600 dark:text-gray-300">2.5 + Years Experience</p>
                     </div>
                     <div className="flex items-center">
                       <Globe className="text-portfolio-600 dark:text-portfolio-400 mr-2 flex-shrink-0" size={18} />
